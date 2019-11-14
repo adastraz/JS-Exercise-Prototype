@@ -116,10 +116,10 @@ Baby.prototype.play = function(){
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding - when you have no real scope and 'this' refers to the GLOBAL this which is called the window object. 
+  2. Implicit Binding - when you have to call a part of a function to invoke the process you want. 
+  3. Explicit Binding - the use of keywords like call or apply or bind, you decide what this is referring to with those keywords.
+  4. New Binding - when you have a constructor function that needs to create a new object, you use this. this.something = theSameThing
 */
 
 
